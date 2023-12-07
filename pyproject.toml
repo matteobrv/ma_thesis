@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "MA-thesis"
+version = "0.1.0"
+description = "MA thesis - probing Pretrained Language Models"
+authors = ["Matteo Brivio"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+typer = "^0.7.0"
+tabulate = "^0.9.0"
+ipywidgets = "^8.0.4"
+torch = {file = "./torch-2.0.0+rocm5.4.2-cp310-cp310-linux_x86_64.whl"}
+transformers = "^4.27.4"
+scikit-learn = "^1.2.1"
+ray = "^2.5.0"
+tqdm = "^4.65.0"
+mlconjug3 = "^3.10.3"
+sentence-transformers = "^2.2.2"
+pyarrow = "^12.0.1"
+nltk = "^3.8.1"
+lexicalrichness = "^0.5.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+isort = "^5.12.0"
+ipykernel = "^6.21.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
