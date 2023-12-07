@@ -1,0 +1,91 @@
+{
+    "en_tense_bert_base": {
+        "model_type": "bert",
+        "model": "bert-base-cased",
+        "last_state": -12,
+        "dim_input": 768,
+        "dim_output": 768,
+        "data_sources": [
+            "english_tense/out_en_sample.csv"
+        ],
+        "tune_epochs": 5,
+        "train_epochs": 15,
+        "samples": 10,
+        "cv_k": 5
+    },
+
+    "en_tense_m_sentence_transformer": {
+        "model_type": "sentence-transformers",
+        "model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+        "last_state": -1,
+        "dim_input": 768,
+        "dim_output": 768,
+        "data_sources": [
+            "english_tense/out_en_sample.csv"
+        ],
+        "tune_epochs": 5,
+        "train_epochs": 15,
+        "samples": 10,
+        "cv_k": 5
+    },
+
+    "en_tense_roberta_base": {
+        "model_type": "roberta",
+        "model": "roberta-base",
+        "last_state": -12,
+        "dim_input": 768,
+        "dim_output": 768,
+        "data_sources": [
+            "english_tense/out_en_sample.csv"
+        ],
+        "tune_epochs": 5,
+        "train_epochs": 15,
+        "samples": 10,
+        "cv_k": 5
+    },
+
+    "en_agr_bert_base": {
+        "model_type": "bert",
+        "model": "bert-base-cased",
+        "last_state": -12,
+        "dim_input": 768,
+        "dim_output": 768,
+        "data_sources": [
+            "english_agreement/out_en_sample.csv"
+        ],
+        "tune_epochs": 5,
+        "train_epochs": 15,
+        "samples": 10,
+        "cv_k": 5
+    },
+
+    "en_agr_m_sentence_transformer": {
+        "model_type": "sentence-transformers",
+        "model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+        "last_state": -1,
+        "dim_input": 768,
+        "dim_output": 768,
+        "data_sources": [
+            "english_agreement/out_en_sample.csv"
+        ],
+        "tune_epochs": 5,
+        "train_epochs": 15,
+        "samples": 10,
+        "cv_k": 5
+    },
+
+    "en_agr_roberta_base": {
+        "model_type": "roberta",
+        "model": "roberta-base",
+        "last_state": -12,
+        "dim_input": 768,
+        "dim_output": 768,
+        "data_sources": [
+            "english_agreement/out_en_sample.csv"
+        ],
+        "tune_epochs": 5,
+        "train_epochs": 15,
+        "samples": 10,
+        "cv_k": 5
+    }
+}
