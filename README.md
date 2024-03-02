@@ -8,7 +8,7 @@ This repository hosts the code, [data](/datasets/) and [results](/results/) of m
 
 ## Requirements
 
-This project uses Poetry, a dependency management and packaging tool for Python. To install Poetry, follow the steps described at https://python-poetry.org/docs/#installation. Additionally, depending on you GPU, you may need to adjust the following line in `pyprject.toml` to get the appropriate `torch` version for your setup:
+This project uses Poetry, a dependency management and packaging tool for Python. To install Poetry, follow the steps described at https://python-poetry.org/docs/#installation. Additionally, depending on your GPU, you may need to adjust the following line in `pyprject.toml` to get the appropriate `torch` version for your setup:
 
 ```toml
 torch = {file = "./torch-2.0.0+rocm5.4.2-cp310-cp310-linux_x86_64.whl"}
